@@ -23,7 +23,7 @@ class Fun(commands.Cog):
         request = site.new_request(language, code)
         raw = site.send(request)
         exitcode = int(raw[-1])
-        message = raw[:-14]
+        message = raw[:-13]
         if exitcode == 0:
             embed = discord.Embed(
                 title="Eval Results",
