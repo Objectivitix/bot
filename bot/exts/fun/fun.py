@@ -4,8 +4,8 @@ import discord
 from discord.ext import commands
 import pytz
 
-from bot.utilities.tio import Tio
 from bot.utilities import get_yaml_val
+from bot.utilities.tio import Tio
 
 cst = pytz.timezone("US/Central")
 

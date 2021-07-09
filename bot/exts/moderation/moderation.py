@@ -5,7 +5,6 @@ import os
 import discord
 from discord.ext import commands, tasks
 
-
 from bot.utilities import get_yaml_val
 
 GUILD_ID = get_yaml_val("bot/config.yml", "guild.id")

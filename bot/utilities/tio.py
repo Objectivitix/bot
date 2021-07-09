@@ -1,8 +1,8 @@
-"Library to interact asynchronously with tio.run"
+"""Library to interact asynchronously with tio.run"""
 
 from functools import partial
-from urllib.request import Request, urlopen
 from gzip import decompress
+from urllib.request import Request, urlopen
 from zlib import compress
 
 import aiohttp

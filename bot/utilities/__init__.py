@@ -1,7 +1,7 @@
 def get_yaml_val(yaml_file: str, *strings: str) -> dict:
+    from string import punctuation
 
     import yaml
-    from string import punctuation
 
     return_dict = {}
 

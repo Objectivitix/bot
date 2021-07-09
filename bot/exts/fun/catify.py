@@ -1,5 +1,5 @@
-import random
 from contextlib import suppress
+import random
 from typing import Optional
 
 from discord import AllowedMentions, Embed, Forbidden

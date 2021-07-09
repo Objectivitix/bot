@@ -1,10 +1,13 @@
-from discord.ext import commands
-import discord
+import asyncio
 import json
 import random
-import asyncio
-from bot.utilities import get_yaml_val
 import re
+
+import discord
+from discord.ext import commands
+
+from bot.utilities import get_yaml_val
+
 quotechannel = get_yaml_val("bot/config.yml", 'guild')['guild']["channels"]["quotes"]
 
 

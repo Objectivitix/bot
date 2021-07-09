@@ -1,7 +1,9 @@
-import discord
-from discord.ext import commands
 import asyncio
 import datetime
+
+import discord
+from discord.ext import commands
+
 from bot.utilities import get_yaml_val
 
 

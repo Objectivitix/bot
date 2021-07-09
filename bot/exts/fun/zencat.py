@@ -1,13 +1,11 @@
+from collections import OrderedDict
 import random
+from typing import Optional
 
 import discord
 from discord.ext import commands
 
-from typing import Optional
-
 from bot.utilities import get_yaml_val
-
-from collections import OrderedDict
 
 COLORS = get_yaml_val("bot/config.yml", "colors")["colors"]
 
